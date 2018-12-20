@@ -1,0 +1,49 @@
+(MainThread) 2018-05-22 06:10:43,057 root              INFO     Get method - Worker threads
+(MainThread) 2018-05-22 06:10:43,057 root              INFO     THREADS : ['MainThread', 'Thread-1']
+(MainThread) 2018-05-22 06:11:11,040 root              INFO     Creating threads
+(worker-0 ) 2018-05-22 06:11:11,069 root              INFO     Updating the KV pairs
+(worker-1 ) 2018-05-22 06:11:11,071 root              INFO     Updating the KV pairs
+(worker-2 ) 2018-05-22 06:11:11,071 root              INFO     Updating the KV pairs
+(worker-3 ) 2018-05-22 06:11:11,073 root              INFO     Updating the KV pairs
+(worker-4 ) 2018-05-22 06:11:11,074 root              INFO     Updating the KV pairs
+(worker-5 ) 2018-05-22 06:11:11,075 root              INFO     Updating the KV pairs
+(worker-6 ) 2018-05-22 06:11:11,076 root              INFO     Updating the KV pairs
+(worker-7 ) 2018-05-22 06:11:11,078 root              INFO     Updating the KV pairs
+(worker-8 ) 2018-05-22 06:11:11,079 root              INFO     Updating the KV pairs
+(worker-9 ) 2018-05-22 06:11:11,080 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:13:21,584 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:13:21,587 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:13:53,657 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:13:53,660 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:15:17,652 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:15:17,656 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:16:06,610 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:16:29,641 root              INFO     Get method - Worker threads
+(MainThread) 2018-05-22 06:16:29,641 root              INFO     THREADS : ['MainThread', 'Thread-1']
+(MainThread) 2018-05-22 06:16:43,720 root              INFO     Creating threads
+(worker-0 ) 2018-05-22 06:16:43,749 root              INFO     Updating the KV pairs
+(worker-1 ) 2018-05-22 06:16:43,751 root              INFO     Updating the KV pairs
+(worker-2 ) 2018-05-22 06:16:43,752 root              INFO     Updating the KV pairs
+(worker-3 ) 2018-05-22 06:16:43,753 root              INFO     Updating the KV pairs
+(worker-4 ) 2018-05-22 06:16:43,754 root              INFO     Updating the KV pairs
+(worker-5 ) 2018-05-22 06:16:43,756 root              INFO     Updating the KV pairs
+(worker-6 ) 2018-05-22 06:16:43,758 root              INFO     Updating the KV pairs
+(worker-7 ) 2018-05-22 06:16:43,759 root              INFO     Updating the KV pairs
+(worker-8 ) 2018-05-22 06:16:43,760 root              INFO     Updating the KV pairs
+(worker-9 ) 2018-05-22 06:16:43,761 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:17:00,415 root              INFO     Get method - Worker threads
+(MainThread) 2018-05-22 06:17:00,415 root              INFO     THREADS : ['MainThread', 'Thread-1', 'worker-3', 'worker-2', 'worker-1', 'worker-9', 'Thread-28', 'worker-7', 'Thread-10', 'Thread-41', 'worker-0', 'worker-4', 'Thread-68', 'Thread-54', 'Thread-17', 'worker-6', 'Thread-60', 'worker-5', 'worker-8', 'Thread-36', 'Thread-23', 'Thread-48']
+(MainThread) 2018-05-22 06:17:20,783 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:17:27,521 root              INFO     Get method - Worker threads
+(MainThread) 2018-05-22 06:17:27,521 root              INFO     THREADS : ['MainThread', 'Thread-1']
+(MainThread) 2018-05-22 06:17:52,992 root              INFO     Creating threads
+(worker-0 ) 2018-05-22 06:17:53,006 root              INFO     Updating the KV pairs
+(worker-1 ) 2018-05-22 06:17:53,007 root              INFO     Updating the KV pairs
+(worker-2 ) 2018-05-22 06:17:53,008 root              INFO     Updating the KV pairs
+(worker-3 ) 2018-05-22 06:17:53,009 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:18:05,984 root              INFO     Get method - Worker threads
+(MainThread) 2018-05-22 06:18:05,984 root              INFO     THREADS : ['MainThread', 'Thread-1', 'Thread-30', 'worker-3', 'worker-0', 'worker-1', 'worker-2', 'Thread-23', 'Thread-17', 'Thread-10']
+(MainThread) 2018-05-22 06:25:42,332 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:25:42,336 root              INFO     Updating the KV pairs
+(MainThread) 2018-05-22 06:27:56,553 root              INFO     starting Rest server
+(MainThread) 2018-05-22 06:27:56,555 root              INFO     Updating the KV pairs

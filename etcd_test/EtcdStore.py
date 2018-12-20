@@ -35,41 +35,4 @@ class EtcdStore(object):
         lock.release()
 
     def __isLockAcquired__(self,lock):
-        #print(lock.is_acquired())
         return lock.is_acquired()
-
-'''
-obj=EtcdStore('localhost',2379,"/vEtcd")
-obj.__setitem__('test',"What a message to test")
-obj.__setitem__('test/path1',"path1 message")
-#obj.__setitem__('test/path1/path2',"path2 message")
-#val=obj.__getitem__('test')
-lock=obj.__acquire_lock__('test')
-val=obj.__getitem__('test')
-print obj.__isLockAcquired__(lock)
-print("Value of test is",val)
-#val=obj.__getitem__('v/BNG10/ABC/RSYS1/ELECTRA/F6')
-#print("Value of test is",val)
-#lock=obj.__acquire_lock__('v/BNG1/ABC')
-#print obj.__isLockAcquired__(lock)
-#obj.__setitem__('test/path1/path2',"This is a new message")
-lock1=obj.__acquire_lock__('v/BNG10/ABC/RSYS1/ELECTRA/F6')
-print obj.__isLockAcquired__(lock)
-#obj.__setitem__('test',"This is a message from 2nd lock")
-#val=obj.__getitem__('test')
-#print("Value of test is",val)
-#val=obj.__getitem__('test/path1/path2')
-#print("Value of test is",val)
-#obj.__release_lock__(lock)
-obj.__isLockAcquired__(lock)
-#val=obj.__getitem__('test')
-#print("Value of test is",val)
-if obj.__isLockAcquired__(lock1):
-    obj.__setitem__('test',"This is a new message")
-    val=obj.__getitem__('test')
-print("Value of test is",val)
-#obj.__delitem__('test')
-#val=obj.__getitem__('test')
-#if val is None:
-#    print("This value is None")
-'''

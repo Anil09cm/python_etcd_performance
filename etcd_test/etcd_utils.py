@@ -39,16 +39,12 @@ class etcdUtils(object):
                     if key not in self.updated_keys:
                         self.updated_keys.append(key)
                     self.es.__setitem__(key, val)
-        #sleep(1)
-    #@staticmethod
+
     def set_worker(self, sleep_time ):
-        #self.update_kv()
         logging.info("Availble Keys in ETCD : {}".format(self.updated_keys))
         for i in range(100):
-            #logging.debug("Random Key index generated --> {}".format(random_key_index))
             random_key_index = random.randint(0, len(self.updated_keys)-1)
             logging.debug("Random Key index generated --> {}".format(random_key_index))
-            #logging.info("Aquiring the Lock!")
             lock = self.es.__acquire_lock__(self.updated_keys[random_key_index])
             if self.es.__isLockAcquired__(lock):
                 logging.info("Lock acquired on the key -- \
@@ -105,7 +101,6 @@ def create_threads(request):
     #response has the threads count
     global etcd_util_obj
     content = json.loads(request.content.read().decode('utf-8'))
-    print "Here Content === ", content
     etcd_util_obj.create_threads(content)
     etcd_util_obj.start_threads()
 
@@ -125,11 +120,6 @@ if __name__ == '__main__':
     global etcd_util_obj
     etcd_util_obj = etcdUtils('localhost', 2379, '/vEtcd')
     etcd_util_obj.update_kv()
-    #create etcdutil object
-    #make it global
-
-    #start the rest server
-    #write wrapper functions for route
     start_rest_server()
         
 
